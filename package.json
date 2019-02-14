@@ -15,14 +15,14 @@
   "scripts": {
     "prestart": "coffee -co lib src",
     "pretest": "coffee -co lib src",
-    "prepublish": "coffee -co lib src"
+    "prepare": "coffee -co lib src"
   },
   "dependencies": {
     "colors": "^1.1.2",
-    "underscore": "^1.4.3",
-    "mocha": "^2.2.5"
+    "mocha": "^5.2.0",
+    "underscore": "^1.4.3"
   },
   "devDependencies": {
-    "coffee-script": "^1.4.0"
+    "coffeescript": "^2.3.2"
   }
 }
